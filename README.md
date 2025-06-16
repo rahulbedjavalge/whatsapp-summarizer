@@ -13,28 +13,64 @@ A comprehensive Python tool for analyzing WhatsApp group chat exports. Get insig
 - **🧠 Smart Narrative Summary**: Detailed insights about what's actually happening in your chat
 - **🔒 Privacy First**: All processing happens locally
 
-## 📸 Screenshots
+## 🖥️ What You'll Get
 
-### Web Interface
-![WhatsApp Chat Analyzer Interface](https://github.com/rahulbedjavalge/whatsapp-summarizer/blob/main/screenshots/web-interface.png?raw=true)
+### Beautiful Web Interface
+- **Drag & Drop Upload**: Simply drop your WhatsApp chat file
+- **Real-time Processing**: Watch as your chat is analyzed in real-time
+- **Interactive Dashboard**: Explore your data with interactive charts
+- **Multiple Export Options**: Download reports in various formats
 
-*Beautiful Streamlit web interface with drag-and-drop file upload and real-time analysis*
-
-### Interactive Visualizations
-![Visualizations Dashboard](https://github.com/rahulbedjavalge/whatsapp-summarizer/blob/main/screenshots/visualizations.png?raw=true)
-
-*Comprehensive visualizations including user activity charts, sentiment analysis, timeline graphs, and word clouds*
+### Comprehensive Analysis
+- **Smart Group Recognition**: Automatically identifies if it's a work, family, student, or social group
+- **Detailed Narratives**: Get insights like "The group appears to be focused on student/visa discussions"
+- **Activity Patterns**: See when your group is most active
+- **Sentiment Tracking**: Monitor mood changes over time
+- **Visual Analytics**: Beautiful charts, graphs, and word clouds
 
 ## 🎯 What's New - Enhanced Summary Feature
 
 The analyzer now provides much more detailed and meaningful insights about your WhatsApp group chats!
+
+### 🔄 What Changed
+
+**Before:** Basic statistics in one line
+```
+📊 This WhatsApp group had X messages from Y participants...
+```
+
+**Now:** Detailed, structured analysis with narrative summary
+```
+📊 **GROUP OVERVIEW**
+This WhatsApp group had X messages from Y participants between [date] and [date] (Z days).
+
+👥 **MOST ACTIVE MEMBERS**
+1. User XXXX: XXX messages (avg XX.X chars)
+2. User YYYY: XXX messages (avg XX.X chars)
+3. User ZZZZ: XXX messages (avg XX.X chars)
+
+📈 **ACTIVITY PATTERNS**
+Peak activity was at XX:00 hours, with the busiest day being [date].
+The group averaged X.X messages per day.
+
+🔥 **KEY TOPICS & DISCUSSIONS**
+Primary topics: [automatically detected main themes]
+Secondary topics: [supporting discussion topics]
+
+😊 **OVERALL MOOD & SENTIMENT**
+[Positive/Negative/Neutral] (X% positive, X% negative, X% neutral).
+
+💬 **WHAT'S HAPPENING IN THE CHAT**
+[Intelligent narrative describing the group's purpose, main discussions, 
+communication patterns, and overall atmosphere based on content analysis]
+```
 
 
 ## 🛠️ Quick Start
 
 ### 1. Installation
 ```bash
-git clone <repository-url>
+git clone https://github.com/rahulbedjavalge/whatsapp-summarizer.git
 cd whatsapp-summarizer
 pip install -r requirements.txt
 ```

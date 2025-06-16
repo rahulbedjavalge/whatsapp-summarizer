@@ -39,33 +39,6 @@ The analyzer now provides much more detailed and meaningful insights about your 
 📊 This WhatsApp group had X messages from Y participants...
 ```
 
-**Now:** Detailed, structured analysis with narrative summary
-```
-📊 **GROUP OVERVIEW**
-This WhatsApp group had X messages from Y participants between [date] and [date] (Z days).
-
-👥 **MOST ACTIVE MEMBERS**
-1. User XXXX: XXX messages (avg XX.X chars)
-2. User YYYY: XXX messages (avg XX.X chars)
-3. User ZZZZ: XXX messages (avg XX.X chars)
-
-📈 **ACTIVITY PATTERNS**
-Peak activity was at XX:00 hours, with the busiest day being [date].
-The group averaged X.X messages per day.
-
-🔥 **KEY TOPICS & DISCUSSIONS**
-Primary topics: [automatically detected main themes]
-Secondary topics: [supporting discussion topics]
-
-😊 **OVERALL MOOD & SENTIMENT**
-[Positive/Negative/Neutral] (X% positive, X% negative, X% neutral).
-
-💬 **WHAT'S HAPPENING IN THE CHAT**
-[Intelligent narrative describing the group's purpose, main discussions, 
-communication patterns, and overall atmosphere based on content analysis]
-```
-
-
 ## 🛠️ Quick Start
 
 ### 1. Installation

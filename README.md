@@ -13,6 +13,18 @@ A comprehensive Python tool for analyzing WhatsApp group chat exports. Get insig
 - **🧠 Smart Narrative Summary**: Detailed insights about what's actually happening in your chat
 - **🔒 Privacy First**: All processing happens locally
 
+## 📸 Screenshots
+
+### Web Interface
+![WhatsApp Chat Analyzer Interface](https://github.com/rahulbedjavalge/whatsapp-summarizer/blob/main/screenshots/web-interface.png?raw=true)
+
+*Beautiful Streamlit web interface with drag-and-drop file upload and real-time analysis*
+
+### Interactive Visualizations
+![Visualizations Dashboard](https://github.com/rahulbedjavalge/whatsapp-summarizer/blob/main/screenshots/visualizations.png?raw=true)
+
+*Comprehensive visualizations including user activity charts, sentiment analysis, timeline graphs, and word clouds*
+
 ## 🎯 What's New - Enhanced Summary Feature
 
 The analyzer now provides much more detailed and meaningful insights about your WhatsApp group chats!
@@ -231,6 +243,7 @@ whatsapp-summarizer/
 ├── chat_visualizer.py      # Visualization generation
 ├── report_generator.py     # Report formatting
 ├── requirements.txt        # Dependencies
+├── screenshots/            # Demo images and interface screenshots
 └── reports/               # Generated reports (auto-created)
     ├── visualizations/    # Chart files
     └── ...               # Report files

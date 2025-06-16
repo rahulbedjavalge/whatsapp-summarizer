@@ -173,6 +173,12 @@ final_test/
 !requirements.txt
 !README.md
 
+# Screenshots (keep these)
+!screenshots/
+!screenshots/*.png
+!screenshots/*.jpg
+!screenshots/*.jpeg
+
 # Temporary files
 *.tmp
 *.temp

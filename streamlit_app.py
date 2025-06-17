@@ -1,9 +1,13 @@
 import streamlit as st
 import pandas as pd
 import os
+import sys
 import tempfile
 from datetime import datetime
 import plotly.graph_objects as go
+
+# Add src directory to path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
 # Import our custom modules
 from whatsapp_parser import WhatsAppParser

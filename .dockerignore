@@ -1,0 +1,70 @@
+# Docker ignore file for WhatsApp Chat Analyzer
+
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.pytest_cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.mypy_cache
+.dmypy.json
+dmypy.json
+
+# Virtual environments
+venv
+.venv
+ENV
+env
+.env
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Project specific
+reports/
+test_reports/
+final_test/
+*.txt
+!requirements.txt
+!sample_chat.txt
+
+# Documentation
+README.md
+*.md
+!requirements.txt
+
+# Screenshots
+screenshots/
+
+# Temporary files
+*.tmp
+*.temp

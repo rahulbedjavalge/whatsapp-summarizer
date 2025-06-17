@@ -9,6 +9,9 @@ import os
 import sys
 from datetime import datetime
 
+# Add src directory to path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+
 # Import our modules
 from whatsapp_parser import WhatsAppParser
 from chat_analyzer import ChatAnalyzer

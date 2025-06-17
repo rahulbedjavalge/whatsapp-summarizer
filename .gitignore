@@ -161,8 +161,8 @@ cython_debug/
 # VS Code
 .vscode/
 
-# Streamlit
-.streamlit/
+# Streamlit (keep Docker config)
+.streamlit/secrets.toml
 
 # Project-specific files
 reports/

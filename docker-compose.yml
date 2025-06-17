@@ -1,0 +1,26 @@
+# WhatsApp Chat Analyzer
+version: '3.8'
+
+services:
+  whatsapp-analyzer:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./reports:/app/reports
+      - ./data:/app/data
+    environment:
+      - STREAMLIT_SERVER_HEADLESS=true
+      - STREAMLIT_SERVER_ENABLE_CORS=false
+      - STREAMLIT_SERVER_ENABLE_XSRF_PROTECTION=false
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+volumes:
+  reports:
+  data:
